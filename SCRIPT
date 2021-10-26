@@ -1,0 +1,69 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Script = Instance.new("Frame")
+local FREELOCK = Instance.new("TextButton")
+local Credits = Instance.new("TextLabel")
+local FOV = Instance.new("TextButton")
+local WHITELISTLOCK = Instance.new("TextButton")
+ 
+ScreenGui.Parent = game.Workspace
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Script.Name = "Script"
+Script.Parent = ScreenGui
+Script.BackgroundColor3 = Color3.new(0.278431, 0.278431, 0.278431)
+Script.BorderColor3 = Color3.new(0.666667, 0.0666667, 0.0666667)
+Script.Position = UDim2.new(0.251756459, 0, 0.195075765, 0)
+Script.Size = UDim2.new(0, 466, 0, 264)
+
+FREELOCK.Name = "FREE LOCK"
+FREELOCK.Parent = Script
+FREELOCK.BackgroundColor3 = Color3.new(0.407843, 0.407843, 0.407843)
+FREELOCK.BorderColor3 = Color3.new(0.666667, 0.0666667, 0.0666667)
+FREELOCK.Position = UDim2.new(0.0231873356, 0, 0.207851052, 0)
+FREELOCK.Size = UDim2.new(0, 202, 0, 39)
+FREELOCK.Font = Enum.Font.SourceSans
+FREELOCK.Text = "FREE LOCK"
+FREELOCK.TextColor3 = Color3.new(0, 0, 0)
+FREELOCK.TextSize = 29
+
+Credits.Name = "Credits"
+Credits.Parent = Script
+Credits.BackgroundColor3 = Color3.new(0.407843, 0.407843, 0.407843)
+Credits.Position = UDim2.new(0.0231873356, 0, 0.81642127, 0)
+Credits.Size = UDim2.new(0, 203, 0, 35)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "Made by Kasper"
+Credits.TextColor3 = Color3.new(0, 0, 0)
+Credits.TextSize = 29
+
+FOV.Name = "FOV"
+FOV.Parent = Script
+FOV.BackgroundColor3 = Color3.new(0.407843, 0.407843, 0.407843)
+FOV.Position = UDim2.new(0.0231873356, 0, 0.405303031, 0)
+FOV.Size = UDim2.new(0, 201, 0, 35)
+FOV.Font = Enum.Font.SourceSans
+FOV.Text = "FOV [120]"
+FOV.TextColor3 = Color3.new(0, 0, 0)
+FOV.TextSize = 29
+
+WHITELISTLOCK.Name = "WHITELIST LOCK"
+WHITELISTLOCK.Parent = Script
+WHITELISTLOCK.BackgroundColor3 = Color3.new(0.407843, 0.407843, 0.407843)
+WHITELISTLOCK.Position = UDim2.new(0.0231873337, 0, 0.0323363207, 0)
+WHITELISTLOCK.Size = UDim2.new(0, 200, 0, 36)
+WHITELISTLOCK.Font = Enum.Font.SourceSans
+WHITELISTLOCK.Text = "WHITELIST LOCK"
+WHITELISTLOCK.TextColor3 = Color3.new(0, 0, 0)
+WHITELISTLOCK.TextSize = 29
+
+print("Hello world!")
+
+
+print("Hello world!")
+
+
+print("Hello world!")
+
+
+print("Hello world!")
+
